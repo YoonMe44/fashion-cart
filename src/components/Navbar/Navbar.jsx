@@ -4,6 +4,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from 'react-icons/fa6';
 import DarkMode from './DarkMode';
 import { FaCaretDown } from 'react-icons/fa6';
+import { FaUser } from "react-icons/fa";
 
 const Menu = [
     {
@@ -84,6 +85,9 @@ const Navbar = () => {
                     {/* Dark Mode Button */}
                     <div>
                         <DarkMode/>
+                    </div>
+                    <div className='group'>
+                        <FaUser className='text-[1.5rem] group-hover:text-primary cursor-pointer'/>
                     </div>
                 </div>
             </div>
