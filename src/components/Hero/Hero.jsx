@@ -1,6 +1,5 @@
 import React from 'react'
 import Image1 from '../../assets/hero/women.png'
-// import Image1 from '../../assets/hero/women2.webp'
 import Image2 from '../../assets/hero/sale.png'
 import Image3 from '../../assets/hero/shopping.png'
 
@@ -51,8 +50,8 @@ const Hero = () => {
                         </div>
                     </div>
                     {/* image section */}
-                    <div>
-                        <div className=''>
+                    <div className='order-1 sm:order-2'>
+                        <div>
                             <img src={Image1} alt="" className='w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto'/>
                         </div>
                     </div>

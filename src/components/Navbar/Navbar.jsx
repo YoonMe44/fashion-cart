@@ -54,7 +54,7 @@ const DropdownLinks = [
 ]
 const Navbar = () => {
   return (
-    <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
+    <div className=' dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
         {/* 1st Nav */}
         <div className="bg-primary/40 py-2">
             <div className='container flex justify-between items-center'>
@@ -107,7 +107,7 @@ const Navbar = () => {
                         Trending Products
                         <span><FaCaretDown className="transition-all duration-200 group-hover:rotate-180" /></span>
                     </a>
-                    <div className='absolute z-[9999] hidden group-hover:block w-[150px] rounded-md bg-white p-2 text-black shadow-md'>
+                    <div className='absolute z-[9999] hidden group-hover:block w-[150px] rounded-md p-2 text-black shadow-md'>
                         <ul>
                             {DropdownLinks.map((data) => (
                                 <li key={data.id}>
@@ -121,6 +121,7 @@ const Navbar = () => {
             </ul>
         </div>
     </div>
+    
   )
 }
 
