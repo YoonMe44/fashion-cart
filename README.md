@@ -21,3 +21,5 @@ If you are developing a production application, we recommend using TypeScript wi
 # npm run dev
 # npm install -D tailwindcss@3 postcss autoprefixer npx tailwindcss init -p
 # npm i react-icons
+# npm i slick-carousel
+# npm i react-slick
