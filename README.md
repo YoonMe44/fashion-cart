@@ -23,3 +23,4 @@ If you are developing a production application, we recommend using TypeScript wi
 # npm i react-icons
 # npm i slick-carousel
 # npm i react-slick
+# npm i aos
