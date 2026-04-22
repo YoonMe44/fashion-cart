@@ -25,6 +25,8 @@ const App = () => {
       <Products />
       <TopProducts />
       <Banner />
+
+      
     </div>
   );
 }
