@@ -14,22 +14,22 @@ const Menu = [
     },
     {
         id: 2,
-        name: "Top Rated",
+        name: "Products",
         link: "/#services",
     },
     {
         id: 3,
-        name: "Women Wear",
+        name: "Best Sellers",
         link: "/#",
     },
     {
         id: 4,
-        name: "Men Wear",
+        name: "Lookbook",
         link: "/#",
     },
     {
         id: 5,
-        name: "Kids Wear",
+        name: "Contact",
         link: "/#",
     },
     

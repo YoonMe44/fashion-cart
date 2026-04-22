@@ -10,7 +10,7 @@ const ImageList = [
         id: 1,
         image: Image1,
         title: "Big Sale",
-        description: "Up to 50% off on selected items. Don't miss out on our biggest sale of the season!"        
+        description: "Up to 75% off on selected items. Don't miss out on our biggest sale of the season!"        
     },
     {
         id: 2,
@@ -70,7 +70,7 @@ const Hero = ({handleOrderPopup}) => {
                             {/* image section */}
                             <div className='order-1 sm:order-2'>
                                 <div data-aos="zoom-in" data-aos-once="true" className='relative z-10'>
-                                    <img src={data.image} alt="" className='w-[400px] h-[400px] sm:h-[490px] sm:w-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto'/>
+                                    <img src={data.image} alt="" className='w-[400px] h-[360px] sm:h-[500px] sm:w-[1000px] sm:scale-105 lg:scale-120 object-contain mx-auto'/>
                                 </div>
                             </div>
                         </div>
